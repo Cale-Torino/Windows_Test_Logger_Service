@@ -1,0 +1,52 @@
+﻿
+
+In ProjectInstaller.cs Select the InitializeComponent method and press the F12 key to go definition.
+
+this.serviceProcessInstaller1.Account = System.ServiceProcess.ServiceAccount.LocalSystem;
+this.serviceInstaller1.Description = "My Service demo";
+this.serviceInstaller1.DisplayName = "MyService.Demo";
+
+
+----------------------------------------
+TO INSTALL
+
+Open Admin cmd
+
+InstallUtil.exe path\to\exe\app.exe
+
+services.msc
+
+--
+
+cd C:\Windows\Microsoft.NET\Framework\v4.0.30319 
+
+C:\Users\Username\source\repos\Windows_Test_Logger_Service\Windows_Test_Logger_Service\bin\Debug
+
+InstallUtil.exe C:\Users\Username\source\repos\Windows_Test_Logger_Service\Windows_Test_Logger_Service\bin\Debug\Windows_Test_Logger_Service.exe
+
+
+----------------------------------------
+Check the status of a Windows Service.
+
+
+
+Open services by following the below steps:
+
+Press the Window key + R.
+Type services.msc
+Find your Service.
+
+
+
+----------------------------------------
+Uninstalling a Windows Service
+
+InstallUtil.exe -u C:\Users\Username\source\repos\Windows_Test_Logger_Service\Windows_Test_Logger_Service\bin\Debug\Windows_Test_Logger_Service.exe
+
+InstallUtil.exe -u path\to\exe\app.exe
+
+
+
+
+
+
