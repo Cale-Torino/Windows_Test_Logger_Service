@@ -1,8 +1,8 @@
 # Windows Test Logger Service
 
-[<img src="img/heading.jpg" width="500"/>](img/heading.jpg)
+[<img src="img/1.jpg" width="500"/>](img/1.jpg)
 
-The `.Net Framework 4.8` version of a native windows C# service which logs test data.
+This version of the native windows C# service runs on the `.Net Framework 4.8`.
 
 This application runs in the background completing automation tasks.
 
@@ -19,6 +19,8 @@ this.serviceInstaller1.Description = "A Windows_Test_Logger_Service Service demo
 this.serviceInstaller1.DisplayName = "Windows_Test_Logger_Service Service";
 this.serviceInstaller1.ServiceName = "Windows_Test_Logger_Service.exe_Service";
 ```
+
+[<img src="img/2.jpg" width="500"/>](img/2.jpg)
 
 ## To Install
 
